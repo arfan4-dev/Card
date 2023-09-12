@@ -1,0 +1,42 @@
+.progress-bar {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Make it a square */
+  position: relative;
+}
+
+.progress-svg {
+  width: 80%;
+  height: 80%;
+}
+
+.progress-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 10;
+  stroke-dasharray: 440;
+}
+
+.progress-border {
+  fill: none;
+  stroke: #007bff; /* Change border color as needed */
+  stroke-width: 10;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+
+
+
+@media (max-width: 425px) and (max-height: 572px)  { 
+  .progress-bar {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Make it a square */
+    position: relative;
+  }
+  .progress-svg {
+    width: 40%;
+    height: 40%;
+  }
+  
+}
